@@ -14,6 +14,6 @@
 @media screen and (max-width: 767px) {
   .intro__text {
       width: fit-content;
-      margin: 0 0 34px 0;
+      margin-bottom: 34px;
   }
 }

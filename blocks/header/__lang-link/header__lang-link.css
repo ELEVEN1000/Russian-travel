@@ -6,6 +6,7 @@
   color: #fff;
   text-decoration: none;
   transition: opacity 0.3s ease-in;
+  list-style-type: none;
 }
 .header__lang-link:not(:last-child) {
   margin-right: 18px;

@@ -4,6 +4,9 @@
   grid-template-rows: repeat(2, min-content);
   gap: 48px 40px;
 }
+.place:not(:last-child){
+  padding-bottom: 80px;
+}
 @media screen and (max-width: 1279px)  {
   .place {
       grid-template-columns: 440px 1fr;
@@ -23,15 +26,19 @@
   .place {
       grid: 600px auto / 1fr;
       grid-template-rows: 1fr;
-
       grid-row-gap: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place:not(:last-child){
+    padding-bottom: 73px;
   }
 }
 @media screen and (max-width: 320px) {
   .place {
     gap: 32px;
   }
-}
-.place:not(:last-child){
-  padding-bottom: 80px;
+  .place:not(:last-child){
+    padding-bottom: 50px;
+  }
 }

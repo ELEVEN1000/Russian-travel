@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-link a{
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -8,7 +8,7 @@
   transition: opacity 0.3s ease-in;
   list-style-type: none;
 }
-.header__lang-link:not(:last-child) {
+.header__lang-link:not(:last-child){
   margin-right: 18px;
 }
 .header__lang-link:hover {

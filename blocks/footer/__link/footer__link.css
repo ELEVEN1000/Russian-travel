@@ -1,4 +1,4 @@
-.footer__link a {
+.footer__link {
   cursor: pointer;
   transition: opacity 0.3s ease-in;
   font-style: normal;
@@ -7,9 +7,7 @@
   line-height: 18px;
   text-decoration: none;
   color: #FFFFFF;
-}
-.footer__link:not(:last-child) {
-  margin-right: 18px;
+
 }
 .footer__link:hover {
   opacity: .8;

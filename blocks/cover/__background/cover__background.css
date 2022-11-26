@@ -24,9 +24,11 @@
   height: 100%;
   width: 100%;
   margin: 0;
+  transition: opacity 0.3s ease-in;
 }
 .cover__background:hover:before {
   opacity: 0.8;
+  transition: opacity 0.3s ease-in;
 }
 
 @media screen and (max-width: 1279px) {

@@ -4,4 +4,6 @@
   display: flex;
   cursor: pointer;
   list-style-type: none;
+  gap: 18px;
 }
+

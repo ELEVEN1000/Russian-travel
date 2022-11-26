@@ -3,13 +3,10 @@
   flex-direction: column;
   justify-content: end;
   margin: 0;
-  transition: opacity 0.3s ease-in;
 }
 @media screen and (max-width: 320px) {
   .place__website {
     margin: 0 16px;
   }
 }
-.place__website:hover {
-  opacity: .8;
-}
+
